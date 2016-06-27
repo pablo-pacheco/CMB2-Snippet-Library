@@ -29,4 +29,8 @@ function js_add_custom_css_for_metabox( $post_id, $cmb ) {
 	</style>
 	<?php
 }
+//Just to make things clearer about this hook
+//'cmb2_after_{objectType}_form_{$cmbId}'
 add_action( 'cmb2_after_post_form_custom_css_test', 'js_add_custom_css_for_metabox', 10, 2 );
+
+
